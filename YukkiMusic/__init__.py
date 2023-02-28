@@ -36,7 +36,6 @@ app = YukkiBot()
 userbot = Userbot()
 
 
-Carbon = CarbonAPI()
 Spotify = SpotifyAPI()
 Apple = AppleAPI()
 Resso = RessoAPI()

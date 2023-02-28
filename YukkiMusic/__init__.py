@@ -35,7 +35,6 @@ app = YukkiBot()
 # Assistant Client
 userbot = Userbot()
 
-from .platforms import *
 
 YouTube = YouTubeAPI()
 Carbon = CarbonAPI()

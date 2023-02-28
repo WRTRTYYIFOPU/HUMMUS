@@ -36,7 +36,6 @@ app = YukkiBot()
 userbot = Userbot()
 
 
-YouTube = YouTubeAPI()
 Carbon = CarbonAPI()
 Spotify = SpotifyAPI()
 Apple = AppleAPI()

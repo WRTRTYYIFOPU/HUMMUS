@@ -10,7 +10,6 @@
 import asyncio
 import os
 import re
-from typing import Union
 
 import aiohttp
 import yt_dlp

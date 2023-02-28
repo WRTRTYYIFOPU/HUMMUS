@@ -137,6 +137,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
 
 )
 @app.on_message(filters.command(["شغل","تشغيل","شغلي"],"")
+& filters.group
 & ~filters.edited
 & ~BANNED_USERS)
 

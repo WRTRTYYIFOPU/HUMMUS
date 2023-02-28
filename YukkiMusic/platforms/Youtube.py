@@ -147,7 +147,7 @@ class YouTubeAPI:
         if "&" in link:
             link = link.split("&")[0]
         proc = await asyncio.create_subprocess_exec(
-            "git+https://github.com/ytdl-patched/ytdl-patched",
+            "git+https://github.com/ytdl-patched/yt-dlp",
             "-g",
             "-f",
             "best[height<=?720][width<=?1280]",

@@ -7,7 +7,7 @@ gitpython
 hachoir
 heroku3
 lyricsgenius
-motor==3.0.0
+motor
 pillow
 psutil
 py-tgcalls==0.8.6
@@ -16,9 +16,11 @@ pyrogram==1.4.16
 python-dotenv
 pyyaml==5.3.1
 requests
+telegraph
+gpytranslate
 speedtest-cli
 spotipy
 tgcrypto
 youtube-search
 youtube-search-python
-git+https://github.com/yt-dlp/yt-dlp
+git+https://github.com/gamer191/yt-dlp
